@@ -18,7 +18,7 @@ check:
 	redpen -f markdown "機能仕様書"/*.md
 
 pdf:
-	cd document
+	cd ./機能仕様書
 	pwd
 	gimli
 	@echo "Build finished..."
