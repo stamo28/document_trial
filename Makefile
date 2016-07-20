@@ -19,7 +19,7 @@ check:
 
 pdf:
 	pwd
-	gimli
+	gimli -file Readme.md
 #	mkdir -p $(BUILDDIR)/html
 #	cp source/*.jpg source/*.png $(BUILDDIR)/html/
 #	cp -r source/styles/redpen $(BUILDDIR)/html/
