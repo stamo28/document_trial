@@ -20,3 +20,6 @@ script:
   - sudo apt-get update && sudo apt-get install oracle-java8-installer
 #  - make check     # Apply RedPen
   - make pdf      # Generate HTML document
+
+notifications:
+  email: false
