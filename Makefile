@@ -18,10 +18,8 @@ check:
 	redpen -f markdown "機能仕様書"/*.md
 
 pdf:
-	cd ./機能仕様書
 	pwd
 	gimli
-	@echo "Build finished..."
 #	mkdir -p $(BUILDDIR)/html
 #	cp source/*.jpg source/*.png $(BUILDDIR)/html/
 #	cp -r source/styles/redpen $(BUILDDIR)/html/
