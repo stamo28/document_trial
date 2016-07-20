@@ -18,8 +18,11 @@ check:
 	redpen -f markdown "機能仕様書"/*.md
 
 html:
-	mkdir -p $(BUILDDIR)/html
-	cp source/*.jpg source/*.png $(BUILDDIR)/html/
-	cp -r source/styles/redpen $(BUILDDIR)/html/
-	$(ASCIIDOCTOR) -a source-highlighter=coderay -a stylesdir=styles -a target-version=1.6 -d book -b html5 source/index.adoc -D$(BUILDDIR)/html
-	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html"
+	cd "機能仕様書"
+	gimli
+	@echo "Build finished..."
+#	mkdir -p $(BUILDDIR)/html
+#	cp source/*.jpg source/*.png $(BUILDDIR)/html/
+#	cp -r source/styles/redpen $(BUILDDIR)/html/
+#	$(ASCIIDOCTOR) -a source-highlighter=coderay -a stylesdir=styles -a target-version=1.6 -d book -b html5 source/index.adoc -D$(BUILDDIR)/html
+#	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html"
