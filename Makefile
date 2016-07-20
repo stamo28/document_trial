@@ -18,8 +18,8 @@ check:
 	redpen -f markdown "機能仕様書"/*.md
 
 pdf:
+	cd "機能仕様書"
 	pwd
-	cd ../"機能仕様書"/
 	gimli
 	@echo "Build finished..."
 #	mkdir -p $(BUILDDIR)/html
