@@ -20,4 +20,4 @@ script:
 #  - gem install --pre asciidoctor-pdf
   - sudo apt-get update && sudo apt-get install oracle-java8-installer
   - make check     # Apply RedPen
-#  - make html      # Generate HTML document
+  - make html      # Generate HTML document
