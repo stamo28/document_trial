@@ -20,8 +20,9 @@ check:
 pdf:
 	cd
 	pwd
+	ls
 	gimli -file Readme.md
-	cd /
+	cd 機能仕様書
 	pwd
 #	mkdir -p $(BUILDDIR)/html
 #	cp source/*.jpg source/*.png $(BUILDDIR)/html/
