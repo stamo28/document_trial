@@ -19,10 +19,10 @@ check:
 
 pdf:
 	ls
-	cd /機能仕様書
+	echo $HOME
+	cd ./document
 	pwd
-	gimli
-
+#	gimli
 #	mkdir -p $(BUILDDIR)/html
 #	cp source/*.jpg source/*.png $(BUILDDIR)/html/
 #	cp -r source/styles/redpen $(BUILDDIR)/html/
