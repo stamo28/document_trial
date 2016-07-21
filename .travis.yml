@@ -19,7 +19,7 @@ script:
   - gem install gimli
   - sudo apt-get update && sudo apt-get install oracle-java8-installer
   - cd 機能仕様書
-  - is
+  - ls
   - gimli
 #  - make check     # Apply RedPen
 #  - make pdf      # Generate HTML document
