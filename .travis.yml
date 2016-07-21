@@ -20,7 +20,11 @@ script:
   - sudo apt-get update && sudo apt-get install oracle-java8-installer
   - cd 機能仕様書
   - ls
-  - gimli
+  - mkdir output
+  - gimli -outputdir output
+  - cd output
+  - ls
+  - zip output
 #  - make check     # Apply RedPen
 #  - make pdf      # Generate HTML document
 
