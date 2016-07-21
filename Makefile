@@ -18,12 +18,11 @@ check:
 	redpen -f markdown "機能仕様書"/*.md
 
 pdf:
-	cd
-	pwd
 	ls
-	gimli -file Readme.md
-	cd 機能仕様書
+	cd /機能仕様書
 	pwd
+	gimli
+
 #	mkdir -p $(BUILDDIR)/html
 #	cp source/*.jpg source/*.png $(BUILDDIR)/html/
 #	cp -r source/styles/redpen $(BUILDDIR)/html/
